@@ -11,10 +11,11 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
+    
+      <p className="displayText">Button clicked {count} times</p>
     <button className="btn" onClick={onClickHandler}>
         click me
       </button>
-      <p className="displayText">Button clicked {count} times</p>
     </div>
   )
 }
